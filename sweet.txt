@@ -2,14 +2,14 @@
      2026-06-11    
 ====================
 * build/soong
-74162b9bc check_boot_jars: Add oplus package names to allowed list [pjgowtham]
+d147b105d check_boot_jars: Add oplus package names to allowed list [pjgowtham]
 
 * device/lineage/sepolicy
 2a5e2ef common: Label ro.config.force_multi_window prop [Thomas Makin]
 
 * frameworks/av
-43dcd1e9cd StagefrightRecorder: Add "set-title" parameter [cjh1249131356]
-4d36608d53 libcameraservice: Add support to set vendor tag with client package name [cjh1249131356]
+48a2b3fdec StagefrightRecorder: Add "set-title" parameter [cjh1249131356]
+53806b4695 libcameraservice: Add support to set vendor tag with client package name [cjh1249131356]
 
 * frameworks/base
 faeae53c21f2 wm: don't disable rot hint on low_ram [Thomas Makin]
@@ -22,10 +22,11 @@ e91ea2c Regenerate device dependency mappings [LineageOS Infra]
 fab3b12 Updated aosp-minimal to 11-Jun-2026 10:02 UTC [Tim Schumacher]
 
 * ota
+8225db9 sweet: OTA update 06112026 [DymondZ]
 2e372c6 Initial commit [DymondZ]
 
 * packages/apps/Settings
-d1c534c8ea8 Settings: Add Face Unlock with ParanoidSense [Chris Crump]
+0a14384607b Settings: Add Face Unlock with ParanoidSense [Chris Crump]
 
 * vendor/extra
 140638e vendorsetup: add Telegram API error handling [DymondZ]
@@ -36,7 +37,7 @@ d1c534c8ea8 Settings: Add Face Unlock with ParanoidSense [Chris Crump]
 266a9ef Adapt for my use [DymondZ]
 
 * vendor/lineage
-5332b681 vendor: config: Exclude AOSP audio on GMS builds [AdarshGrewal]
+115532bc vendor: config: Exclude AOSP audio on GMS builds [AdarshGrewal]
 
 ====================
      2026-06-10    
