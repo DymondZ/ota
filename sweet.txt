@@ -10,6 +10,7 @@ e36b84a Regenerate device dependency mappings [LineageOS Infra]
 fab3b12 Updated aosp-minimal to 11-Jun-2026 10:02 UTC [Tim Schumacher]
 
 * ota
+32f0c57 sweet: OTA update 06122026 [DymondZ]
 0037b37 sweet: OTA update 06112026 [DymondZ]
 8225db9 sweet: OTA update 06112026 [DymondZ]
 2e372c6 Initial commit [DymondZ]
@@ -19,6 +20,7 @@ c0a70ee US: Allow IPV4V6 for Google Fi (h2g2) [John-Michael Mulesa]
 087a17d US: Add Google Fi (h2g2) APN for the 310240 host [John-Michael Mulesa]
 
 * vendor/extra
+1bd6577 vendorsetup: don't guard UpdaterOverlay behind GMS [DymondZ]
 a9e40e7 vendorsetup: don't sync unwanted repos [DymondZ]
 00e3bca vendorsetup: build vanilla and skip picks by default [DymondZ]
 140638e vendorsetup: add Telegram API error handling [DymondZ]
