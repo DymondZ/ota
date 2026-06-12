@@ -18,6 +18,7 @@ fab3b12 Updated aosp-minimal to 11-Jun-2026 10:02 UTC [Tim Schumacher]
 74f7e76b wiki: Add SHIFTphone 8 [Michael Bestas]
 
 * ota
+df5e9c2 sweet: OTA update 06122026 [DymondZ]
 779f513 sweet: OTA update 06122026 [DymondZ]
 42137c3 sweet: OTA update 06122026 [DymondZ]
 7565064 sweet: OTA update 06122026 [DymondZ]
@@ -31,6 +32,7 @@ c0a70ee US: Allow IPV4V6 for Google Fi (h2g2) [John-Michael Mulesa]
 087a17d US: Add Google Fi (h2g2) APN for the 310240 host [John-Michael Mulesa]
 
 * vendor/extra
+daadee3 vendorsetup: clear stale build props before bacon [DymondZ]
 b8555df vendorsetup: append build timestamp to Lineage version during build [DymondZ]
 1bd6577 vendorsetup: don't guard UpdaterOverlay behind GMS [DymondZ]
 a9e40e7 vendorsetup: don't sync unwanted repos [DymondZ]
