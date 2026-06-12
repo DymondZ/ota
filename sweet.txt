@@ -1,15 +1,38 @@
 ====================
+     2026-06-12    
+====================
+* lineage/hudson
+e36b84a Regenerate device dependency mappings [LineageOS Infra]
+18236e4 Regenerate device dependency mappings [LineageOS Infra]
+
+* lineage/mirror
+8e883b1 Updated to 11-Jun-2026 22:01 UTC [Tim Schumacher]
+fab3b12 Updated aosp-minimal to 11-Jun-2026 10:02 UTC [Tim Schumacher]
+
+* ota
+0037b37 sweet: OTA update 06112026 [DymondZ]
+8225db9 sweet: OTA update 06112026 [DymondZ]
+2e372c6 Initial commit [DymondZ]
+
+* vendor/apn
+c0a70ee US: Allow IPV4V6 for Google Fi (h2g2) [John-Michael Mulesa]
+087a17d US: Add Google Fi (h2g2) APN for the 310240 host [John-Michael Mulesa]
+
+* vendor/extra
+a9e40e7 vendorsetup: don't sync unwanted repos [DymondZ]
+00e3bca vendorsetup: build vanilla and skip picks by default [DymondZ]
+140638e vendorsetup: add Telegram API error handling [DymondZ]
+984f987 vendorsetup: update TELEGRAM_ENV path to use EXTRA_TOP variable [DymondZ]
+612e698 vendorsetup: load Telegram environment variables [DymondZ]
+45bc8d6 release: remove skip_ota variable for vanilla variant [DymondZ]
+83d0532 vendorsetup: always upload additional images [DymondZ]
+266a9ef Adapt for my use [DymondZ]
+
+====================
      2026-06-11    
 ====================
-* build/soong
-d147b105d check_boot_jars: Add oplus package names to allowed list [pjgowtham]
-
 * device/lineage/sepolicy
 2a5e2ef common: Label ro.config.force_multi_window prop [Thomas Makin]
-
-* frameworks/av
-48a2b3fdec StagefrightRecorder: Add "set-title" parameter [cjh1249131356]
-53806b4695 libcameraservice: Add support to set vendor tag with client package name [cjh1249131356]
 
 * frameworks/base
 faeae53c21f2 wm: don't disable rot hint on low_ram [Thomas Makin]
@@ -22,11 +45,13 @@ e91ea2c Regenerate device dependency mappings [LineageOS Infra]
 fab3b12 Updated aosp-minimal to 11-Jun-2026 10:02 UTC [Tim Schumacher]
 
 * ota
+0037b37 sweet: OTA update 06112026 [DymondZ]
 8225db9 sweet: OTA update 06112026 [DymondZ]
 2e372c6 Initial commit [DymondZ]
 
-* packages/apps/Settings
-0a14384607b Settings: Add Face Unlock with ParanoidSense [Chris Crump]
+* vendor/apn
+c0a70ee US: Allow IPV4V6 for Google Fi (h2g2) [John-Michael Mulesa]
+087a17d US: Add Google Fi (h2g2) APN for the 310240 host [John-Michael Mulesa]
 
 * vendor/extra
 140638e vendorsetup: add Telegram API error handling [DymondZ]
@@ -35,9 +60,6 @@ fab3b12 Updated aosp-minimal to 11-Jun-2026 10:02 UTC [Tim Schumacher]
 45bc8d6 release: remove skip_ota variable for vanilla variant [DymondZ]
 83d0532 vendorsetup: always upload additional images [DymondZ]
 266a9ef Adapt for my use [DymondZ]
-
-* vendor/lineage
-115532bc vendor: config: Exclude AOSP audio on GMS builds [AdarshGrewal]
 
 ====================
      2026-06-10    
@@ -79,6 +101,9 @@ b015df8f wiki: Add wiki->gh mapping for gauguin maintainer [LuK1337]
 11002099 fixup! wiki: makinbacon github username mapping [LuK1337]
 5ec8000b wiki: makinbacon github username mapping [Nolen Johnson]
 
+* scripts
+555516d shipper: Add comment with used git hashes [LuK1337]
+
 ====================
      2026-06-08    
 ====================
@@ -98,6 +123,9 @@ b015df8f wiki: Add wiki->gh mapping for gauguin maintainer [LuK1337]
 b015df8f wiki: Add wiki->gh mapping for gauguin maintainer [LuK1337]
 11002099 fixup! wiki: makinbacon github username mapping [LuK1337]
 5ec8000b wiki: makinbacon github username mapping [Nolen Johnson]
+
+* scripts
+555516d shipper: Add comment with used git hashes [LuK1337]
 
 ====================
      2026-06-07    
@@ -421,6 +449,9 @@ d6d695f Automatic translation import [LineageOS Infra]
 * packages/services/Telephony
 a88a97936 Disallow shell to change CarrierRestrictionRules [Keith Mok]
 
+* scripts
+bbff7d3 carriersettings-extractor: Use correct APN type for TYPE_ALL [LuK1337]
+
 * vendor/crowdin
 8b46d54 Automatic translation import [LineageOS Infra]
 
@@ -526,6 +557,9 @@ bb0c88c Automatic translation import [LineageOS Infra]
 * packages/services/Mms
 d6d695f Automatic translation import [LineageOS Infra]
 
+* scripts
+bbff7d3 carriersettings-extractor: Use correct APN type for TYPE_ALL [LuK1337]
+
 * vendor/crowdin
 8b46d54 Automatic translation import [LineageOS Infra]
 
@@ -556,23 +590,4 @@ a9afe689 wiki: 4 -> 3 [LuK1337]
 0c775f5a wiki: Add wiki->gh mapping for Mi439 maintainer [LuK1337]
 f171910a wiki: Add wiki->gh mapping for evert maintainer [LuK1337]
 51283ea4 wiki: Add wiki->gh mapping for guam maintainers [LuK1337]
-
-====================
-     2026-05-29    
-====================
-* lineage/hudson
-25dd66a Regenerate device dependency mappings [LineageOS Infra]
-
-* lineage/mirror
-b035da7 Updated to 29-May-2026 10:01 UTC [Tim Schumacher]
-
-* lineage/website
-64281ca www: Issue tracker is now on GitHub [LuK1337]
-
-* lineage/wiki
-0c775f5a wiki: Add wiki->gh mapping for Mi439 maintainer [LuK1337]
-f171910a wiki: Add wiki->gh mapping for evert maintainer [LuK1337]
-51283ea4 wiki: Add wiki->gh mapping for guam maintainers [LuK1337]
-4c0884a1 wiki: Migrate Android issue tracker to gitlab [LuK1337]
-c40df507 wiki: devrel-int is on github too [LuK1337]
 
