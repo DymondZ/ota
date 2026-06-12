@@ -17,21 +17,12 @@ fab3b12 Updated aosp-minimal to 11-Jun-2026 10:02 UTC [Tim Schumacher]
 8dc02b86 wiki: mh2lm/Q25: Remove unwanted double space [LuK1337]
 74f7e76b wiki: Add SHIFTphone 8 [Michael Bestas]
 
-* ota
-df5e9c2 sweet: OTA update 06122026 [DymondZ]
-779f513 sweet: OTA update 06122026 [DymondZ]
-42137c3 sweet: OTA update 06122026 [DymondZ]
-7565064 sweet: OTA update 06122026 [DymondZ]
-32f0c57 sweet: OTA update 06122026 [DymondZ]
-0037b37 sweet: OTA update 06112026 [DymondZ]
-8225db9 sweet: OTA update 06112026 [DymondZ]
-2e372c6 Initial commit [DymondZ]
-
 * vendor/apn
 c0a70ee US: Allow IPV4V6 for Google Fi (h2g2) [John-Michael Mulesa]
 087a17d US: Add Google Fi (h2g2) APN for the 310240 host [John-Michael Mulesa]
 
 * vendor/extra
+d220a6b vendorsetup: don't clean product output after building [DymondZ]
 daadee3 vendorsetup: clear stale build props before bacon [DymondZ]
 b8555df vendorsetup: append build timestamp to Lineage version during build [DymondZ]
 1bd6577 vendorsetup: don't guard UpdaterOverlay behind GMS [DymondZ]
@@ -59,11 +50,6 @@ e91ea2c Regenerate device dependency mappings [LineageOS Infra]
 
 * lineage/mirror
 fab3b12 Updated aosp-minimal to 11-Jun-2026 10:02 UTC [Tim Schumacher]
-
-* ota
-0037b37 sweet: OTA update 06112026 [DymondZ]
-8225db9 sweet: OTA update 06112026 [DymondZ]
-2e372c6 Initial commit [DymondZ]
 
 * vendor/apn
 c0a70ee US: Allow IPV4V6 for Google Fi (h2g2) [John-Michael Mulesa]
