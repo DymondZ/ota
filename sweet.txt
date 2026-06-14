@@ -1,4 +1,26 @@
 ====================
+     2026-06-13    
+====================
+* hardware/qcom-caf/common
+cd600d7 qcom: Enable gralloc4 on 4.19 legacy family [wHo-EM-i]
+
+* lineage/hudson
+47580fb Shift from old-aquatic to new-aquatic release candidate [Michael Bestas]
+e36b84a Regenerate device dependency mappings [LineageOS Infra]
+
+* lineage/mirror
+8e883b1 Updated to 11-Jun-2026 22:01 UTC [Tim Schumacher]
+
+* lineage/wiki
+8dc02b86 wiki: mh2lm/Q25: Remove unwanted double space [LuK1337]
+74f7e76b wiki: Add SHIFTphone 8 [Michael Bestas]
+
+* vendor/extra
+1bd6577 vendorsetup: don't guard UpdaterOverlay behind GMS [DymondZ]
+a9e40e7 vendorsetup: don't sync unwanted repos [DymondZ]
+00e3bca vendorsetup: build vanilla and skip picks by default [DymondZ]
+
+====================
      2026-06-12    
 ====================
 * hardware/qcom-caf/common
@@ -22,9 +44,6 @@ c0a70ee US: Allow IPV4V6 for Google Fi (h2g2) [John-Michael Mulesa]
 087a17d US: Add Google Fi (h2g2) APN for the 310240 host [John-Michael Mulesa]
 
 * vendor/extra
-d220a6b vendorsetup: don't clean product output after building [DymondZ]
-daadee3 vendorsetup: clear stale build props before bacon [DymondZ]
-b8555df vendorsetup: append build timestamp to Lineage version during build [DymondZ]
 1bd6577 vendorsetup: don't guard UpdaterOverlay behind GMS [DymondZ]
 a9e40e7 vendorsetup: don't sync unwanted repos [DymondZ]
 00e3bca vendorsetup: build vanilla and skip picks by default [DymondZ]
@@ -567,29 +586,4 @@ bbff7d3 carriersettings-extractor: Use correct APN type for TYPE_ALL [LuK1337]
 
 * vendor/qcom/opensource/commonsys/fm
 baa4502 Automatic translation import [LineageOS Infra]
-
-====================
-     2026-05-31    
-====================
-* lineage/hudson
-fad226d Regenerate device dependency mappings [LineageOS Infra]
-
-* lineage/wiki
-a9afe689 wiki: 4 -> 3 [LuK1337]
-
-====================
-     2026-05-30    
-====================
-* lineage/hudson
-fad226d Regenerate device dependency mappings [LineageOS Infra]
-25dd66a Regenerate device dependency mappings [LineageOS Infra]
-
-* lineage/mirror
-b035da7 Updated to 29-May-2026 10:01 UTC [Tim Schumacher]
-
-* lineage/wiki
-a9afe689 wiki: 4 -> 3 [LuK1337]
-0c775f5a wiki: Add wiki->gh mapping for Mi439 maintainer [LuK1337]
-f171910a wiki: Add wiki->gh mapping for evert maintainer [LuK1337]
-51283ea4 wiki: Add wiki->gh mapping for guam maintainers [LuK1337]
 
