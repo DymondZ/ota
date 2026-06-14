@@ -1,4 +1,30 @@
 ====================
+     2026-06-14    
+====================
+* build/soong
+5c3d078a2 check_boot_jars: Add oplus package names to allowed list [pjgowtham]
+
+* frameworks/av
+718f812d97 StagefrightRecorder: Add "set-title" parameter [cjh1249131356]
+570cce4a15 libcameraservice: Add support to set vendor tag with client package name [cjh1249131356]
+
+* lineage/mirror
+e3bd9d9 Updated lineage-minimal to 13-Jun-2026 22:01 UTC [Tim Schumacher]
+95fe03a Updated to 12-Jun-2026 22:01 UTC [Tim Schumacher]
+
+* lineage/wiki
+8e2a6c1e wiki: Minor corrections in glossary page [charcoalpt]
+
+* packages/apps/Settings
+224740a774f Settings: Add Face Unlock with ParanoidSense [Chris Crump]
+
+* vendor/extra
+cdb9586 vendorsetup: don't skip picks by default [DymondZ]
+
+* vendor/lineage
+d867ea98 vendor: config: Exclude AOSP audio on GMS builds [AdarshGrewal]
+
+====================
      2026-06-13    
 ====================
 * hardware/qcom-caf/common
@@ -9,6 +35,7 @@ cd600d7 qcom: Enable gralloc4 on 4.19 legacy family [wHo-EM-i]
 e36b84a Regenerate device dependency mappings [LineageOS Infra]
 
 * lineage/mirror
+95fe03a Updated to 12-Jun-2026 22:01 UTC [Tim Schumacher]
 8e883b1 Updated to 11-Jun-2026 22:01 UTC [Tim Schumacher]
 
 * lineage/wiki
