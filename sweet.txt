@@ -1,12 +1,25 @@
 ====================
      2026-06-14    
 ====================
-* build/soong
-5c3d078a2 check_boot_jars: Add oplus package names to allowed list [pjgowtham]
+* external/chromium-webview/prebuilt/arm
+6773406 Update Chromium Webview arm to 149.0.7827.114 [Kevin F. Haggerty]
+
+* external/chromium-webview/prebuilt/arm64
+0a65409 Update Chromium Webview arm64 to 149.0.7827.114 [Kevin F. Haggerty]
+
+* external/chromium-webview/prebuilt/x86
+78b3819 Update Chromium Webview x86 to 149.0.7827.114 [Kevin F. Haggerty]
+
+* external/chromium-webview/prebuilt/x86_64
+64512a6 Update Chromium Webview x86_64 to 149.0.7827.114 [Kevin F. Haggerty]
 
 * frameworks/av
-718f812d97 StagefrightRecorder: Add "set-title" parameter [cjh1249131356]
-570cce4a15 libcameraservice: Add support to set vendor tag with client package name [cjh1249131356]
+9cdb81334c StagefrightRecorder: Add "set-title" parameter [cjh1249131356]
+4c3c05710d libcameraservice: Add support to set vendor tag with client package name [cjh1249131356]
+
+* frameworks/base
+af26a2f46cfc camera: Add backwards-compatible CaptureResultExtras constructor [Adithya R]
+394e4747e253 core: camera2: StreamConfigurationMap: add constructor for MIUI camera [Pulkit077]
 
 * lineage/mirror
 e3bd9d9 Updated lineage-minimal to 13-Jun-2026 22:01 UTC [Tim Schumacher]
@@ -15,18 +28,17 @@ e3bd9d9 Updated lineage-minimal to 13-Jun-2026 22:01 UTC [Tim Schumacher]
 * lineage/wiki
 8e2a6c1e wiki: Minor corrections in glossary page [charcoalpt]
 
-* packages/apps/Settings
-224740a774f Settings: Add Face Unlock with ParanoidSense [Chris Crump]
-
 * vendor/extra
+3e2c483 vendorsetup: remove unwanted patches [DymondZ]
+c6523a5 vendorsetup: remove Face Unlock support from product.mk [DymondZ]
 cdb9586 vendorsetup: don't skip picks by default [DymondZ]
-
-* vendor/lineage
-d867ea98 vendor: config: Exclude AOSP audio on GMS builds [AdarshGrewal]
 
 ====================
      2026-06-13    
 ====================
+* external/chromium-webview/patches
+8085550 Update Chromium Webview to 149.0.7827.114 [Kevin F. Haggerty]
+
 * hardware/qcom-caf/common
 cd600d7 qcom: Enable gralloc4 on 4.19 legacy family [wHo-EM-i]
 
@@ -38,9 +50,15 @@ e36b84a Regenerate device dependency mappings [LineageOS Infra]
 95fe03a Updated to 12-Jun-2026 22:01 UTC [Tim Schumacher]
 8e883b1 Updated to 11-Jun-2026 22:01 UTC [Tim Schumacher]
 
+* lineage/scripts
+2f93642 build-webview: Update default webview to 149.0.7827.114 [Kevin F. Haggerty]
+
 * lineage/wiki
 8dc02b86 wiki: mh2lm/Q25: Remove unwanted double space [LuK1337]
 74f7e76b wiki: Add SHIFTphone 8 [Michael Bestas]
+
+* scripts
+2f93642 build-webview: Update default webview to 149.0.7827.114 [Kevin F. Haggerty]
 
 * vendor/extra
 1bd6577 vendorsetup: don't guard UpdaterOverlay behind GMS [DymondZ]
@@ -50,6 +68,9 @@ a9e40e7 vendorsetup: don't sync unwanted repos [DymondZ]
 ====================
      2026-06-12    
 ====================
+* external/chromium-webview/patches
+8085550 Update Chromium Webview to 149.0.7827.114 [Kevin F. Haggerty]
+
 * hardware/qcom-caf/common
 cd600d7 qcom: Enable gralloc4 on 4.19 legacy family [wHo-EM-i]
 
@@ -62,9 +83,15 @@ e36b84a Regenerate device dependency mappings [LineageOS Infra]
 8e883b1 Updated to 11-Jun-2026 22:01 UTC [Tim Schumacher]
 fab3b12 Updated aosp-minimal to 11-Jun-2026 10:02 UTC [Tim Schumacher]
 
+* lineage/scripts
+2f93642 build-webview: Update default webview to 149.0.7827.114 [Kevin F. Haggerty]
+
 * lineage/wiki
 8dc02b86 wiki: mh2lm/Q25: Remove unwanted double space [LuK1337]
 74f7e76b wiki: Add SHIFTphone 8 [Michael Bestas]
+
+* scripts
+2f93642 build-webview: Update default webview to 149.0.7827.114 [Kevin F. Haggerty]
 
 * vendor/apn
 c0a70ee US: Allow IPV4V6 for Google Fi (h2g2) [John-Michael Mulesa]
