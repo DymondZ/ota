@@ -1,4 +1,39 @@
 ====================
+     2026-06-15    
+====================
+* external/chromium-webview/prebuilt/arm
+6773406 Update Chromium Webview arm to 149.0.7827.114 [Kevin F. Haggerty]
+
+* external/chromium-webview/prebuilt/arm64
+0a65409 Update Chromium Webview arm64 to 149.0.7827.114 [Kevin F. Haggerty]
+
+* external/chromium-webview/prebuilt/x86
+78b3819 Update Chromium Webview x86 to 149.0.7827.114 [Kevin F. Haggerty]
+
+* external/chromium-webview/prebuilt/x86_64
+64512a6 Update Chromium Webview x86_64 to 149.0.7827.114 [Kevin F. Haggerty]
+
+* frameworks/av
+71763c00b0 StagefrightRecorder: Add "set-title" parameter [cjh1249131356]
+c1d20306fe libcameraservice: Add support to set vendor tag with client package name [cjh1249131356]
+
+* frameworks/base
+c60341ea11c4 camera: Add backwards-compatible CaptureResultExtras constructor [Adithya R]
+f6824ebcd4fb core: camera2: StreamConfigurationMap: add constructor for MIUI camera [Pulkit077]
+
+* lineage/mirror
+e3bd9d9 Updated lineage-minimal to 13-Jun-2026 22:01 UTC [Tim Schumacher]
+
+* lineage/wiki
+1df87184 wiki: Fix my name and add a GitHub username mapping [Aelin Reidel]
+8e2a6c1e wiki: Minor corrections in glossary page [charcoalpt]
+
+* vendor/extra
+3e2c483 vendorsetup: remove unwanted patches [DymondZ]
+c6523a5 vendorsetup: remove Face Unlock support from product.mk [DymondZ]
+cdb9586 vendorsetup: don't skip picks by default [DymondZ]
+
+====================
      2026-06-14    
 ====================
 * external/chromium-webview/prebuilt/arm
@@ -14,18 +49,19 @@
 64512a6 Update Chromium Webview x86_64 to 149.0.7827.114 [Kevin F. Haggerty]
 
 * frameworks/av
-9cdb81334c StagefrightRecorder: Add "set-title" parameter [cjh1249131356]
-4c3c05710d libcameraservice: Add support to set vendor tag with client package name [cjh1249131356]
+71763c00b0 StagefrightRecorder: Add "set-title" parameter [cjh1249131356]
+c1d20306fe libcameraservice: Add support to set vendor tag with client package name [cjh1249131356]
 
 * frameworks/base
-af26a2f46cfc camera: Add backwards-compatible CaptureResultExtras constructor [Adithya R]
-394e4747e253 core: camera2: StreamConfigurationMap: add constructor for MIUI camera [Pulkit077]
+c60341ea11c4 camera: Add backwards-compatible CaptureResultExtras constructor [Adithya R]
+f6824ebcd4fb core: camera2: StreamConfigurationMap: add constructor for MIUI camera [Pulkit077]
 
 * lineage/mirror
 e3bd9d9 Updated lineage-minimal to 13-Jun-2026 22:01 UTC [Tim Schumacher]
 95fe03a Updated to 12-Jun-2026 22:01 UTC [Tim Schumacher]
 
 * lineage/wiki
+1df87184 wiki: Fix my name and add a GitHub username mapping [Aelin Reidel]
 8e2a6c1e wiki: Minor corrections in glossary page [charcoalpt]
 
 * vendor/extra
@@ -532,111 +568,6 @@ bbff7d3 carriersettings-extractor: Use correct APN type for TYPE_ALL [LuK1337]
 
 * vendor/extra
 d632b48 extra: Pick B_asb_2026-06 [basamaryan]
-
-* vendor/qcom/opensource/commonsys/fm
-baa4502 Automatic translation import [LineageOS Infra]
-
-====================
-     2026-06-01    
-====================
-* frameworks/base
-70d943211b34 Automatic translation import [LineageOS Infra]
-
-* lineage-sdk
-409a7d7b Automatic translation import [LineageOS Infra]
-
-* lineage/scripts
-bbff7d3 carriersettings-extractor: Use correct APN type for TYPE_ALL [LuK1337]
-
-* packages/apps/Aperture
-544ee98 Automatic translation import [LineageOS Infra]
-
-* packages/apps/AudioFX
-bb85584 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Backgrounds
-fcaf556 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Camelot
-b631c00 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Catapult
-7f2c518 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Contacts
-63690edff Automatic translation import [LineageOS Infra]
-
-* packages/apps/DeskClock
-5e2f0a134 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Dialer
-f6e9f643c Automatic translation import [LineageOS Infra]
-
-* packages/apps/DocumentsUI
-87d358706 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Etar
-363afd17 Automatic translation import [LineageOS Infra]
-
-* packages/apps/FMRadio
-0811ee1 Automatic translation import [LineageOS Infra]
-
-* packages/apps/FlipFlap
-e6e25ef Automatic translation import [LineageOS Infra]
-
-* packages/apps/Glimpse
-5fee745 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Jelly
-ed00c3e Automatic translation import [LineageOS Infra]
-
-* packages/apps/LineageParts
-ea9086c Automatic translation import [LineageOS Infra]
-
-* packages/apps/Messaging
-0617394 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Profiles
-9895a25 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Recorder
-1234b0d Automatic translation import [LineageOS Infra]
-
-* packages/apps/Settings
-5d1b6ebf8c5 Automatic translation import [LineageOS Infra]
-
-* packages/apps/SetupWizard
-fe841a8 Automatic translation import [LineageOS Infra]
-
-* packages/apps/ThemePicker
-75b4b9eb Automatic translation import [LineageOS Infra]
-
-* packages/apps/Trebuchet
-6dfa2aa1e3 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Twelve
-9545223 Automatic translation import [LineageOS Infra]
-
-* packages/apps/Updater
-a997bec Automatic translation import [LineageOS Infra]
-
-* packages/inputmethods/LatinIME
-9706270b3 Automatic translation import [LineageOS Infra]
-
-* packages/providers/DownloadProvider
-2d3ba1be Automatic translation import [LineageOS Infra]
-
-* packages/resources/devicesettings
-bb0c88c Automatic translation import [LineageOS Infra]
-
-* packages/services/Mms
-d6d695f Automatic translation import [LineageOS Infra]
-
-* scripts
-bbff7d3 carriersettings-extractor: Use correct APN type for TYPE_ALL [LuK1337]
-
-* vendor/crowdin
-8b46d54 Automatic translation import [LineageOS Infra]
 
 * vendor/qcom/opensource/commonsys/fm
 baa4502 Automatic translation import [LineageOS Infra]
