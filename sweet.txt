@@ -14,12 +14,12 @@
 64512a6 Update Chromium Webview x86_64 to 149.0.7827.114 [Kevin F. Haggerty]
 
 * frameworks/av
-71763c00b0 StagefrightRecorder: Add "set-title" parameter [cjh1249131356]
-c1d20306fe libcameraservice: Add support to set vendor tag with client package name [cjh1249131356]
+9b6a09cf5a StagefrightRecorder: Add "set-title" parameter [cjh1249131356]
+867d40624f libcameraservice: Add support to set vendor tag with client package name [cjh1249131356]
 
 * frameworks/base
-c60341ea11c4 camera: Add backwards-compatible CaptureResultExtras constructor [Adithya R]
-f6824ebcd4fb core: camera2: StreamConfigurationMap: add constructor for MIUI camera [Pulkit077]
+0cbe523b49bb camera: Add backwards-compatible CaptureResultExtras constructor [Adithya R]
+f58545b16b3f core: camera2: StreamConfigurationMap: add constructor for MIUI camera [Pulkit077]
 
 * lineage/mirror
 e3bd9d9 Updated lineage-minimal to 13-Jun-2026 22:01 UTC [Tim Schumacher]
@@ -47,14 +47,6 @@ cdb9586 vendorsetup: don't skip picks by default [DymondZ]
 
 * external/chromium-webview/prebuilt/x86_64
 64512a6 Update Chromium Webview x86_64 to 149.0.7827.114 [Kevin F. Haggerty]
-
-* frameworks/av
-71763c00b0 StagefrightRecorder: Add "set-title" parameter [cjh1249131356]
-c1d20306fe libcameraservice: Add support to set vendor tag with client package name [cjh1249131356]
-
-* frameworks/base
-c60341ea11c4 camera: Add backwards-compatible CaptureResultExtras constructor [Adithya R]
-f6824ebcd4fb core: camera2: StreamConfigurationMap: add constructor for MIUI camera [Pulkit077]
 
 * lineage/mirror
 e3bd9d9 Updated lineage-minimal to 13-Jun-2026 22:01 UTC [Tim Schumacher]
