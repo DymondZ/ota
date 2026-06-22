@@ -1,41 +1,94 @@
 ====================
-     2026-06-20    
+     2026-06-22    
 ====================
 * device/xiaomi/sm6150-common
-0bd61d9 sm6150-common: Implement torch light control [Dhina17]
-1b49818 sm6150-common: Add per-app thermal profiles [Adithya R]
-3f554ba sm6150-common: Enable charging control bypass mode [Michael Bestas]
-b2a69dc sm6150-common: Enable USB and skin temperature warnings [Danny Lin]
-c8e0df7 sm6150-common: Enable DeviceAsWebcam [Yumi Yukimura]
+957fbb2 sm6150-common: Implement torch light control [Dhina17]
+028ba6d sm6150-common: Add per-app thermal profiles [Adithya R]
+2ee7aa1 sm6150-common: Enable charging control bypass mode [Michael Bestas]
+c60720e sm6150-common: Enable USB and skin temperature warnings [Danny Lin]
+bae999b sm6150-common: Enable DeviceAsWebcam [Yumi Yukimura]
 
 * device/xiaomi/sweet
-c6bb80c sweet: overlay: Define OEM fast-charge sysfs node [DymondZ]
-0e0b69a sweet: camera: Implement torch strength control [Cyber Knight]
-5c95e29 sweet: powerhint: Drop obsolete top-app schedtune hints [DymondZ]
-df8799b sweet: audio: Add ACDB IDs for voice recording [DymondZ]
-87f1af3 sweet: Build PixelOS kernel defconfig [DymondZ]
+517618c sweet: overlay: Define OEM fast charge sysfs node [Adithya R]
+4ea985b sweet: camera: Cap max_brightness [John Galt]
+f0fc2c5 sweet: camera: Add enabled bool for finished workarounds [John Galt]
+c35536b sweet: camera: Implement setTorchModeExt [bengris32]
+e8f62f0 sweet: camera: Implement supportsSetTorchModeExt [bengris32]
+ae6352d sweet: Implement torch light control [Dhina17]
+c29e9b2 sweet: powerhint: Drop TASchedtune{Boost, HighCap} [Giovanni Ricca]
+123ff94 sweet: audio: add ACDB IDs for voice recording [trpsl]
+3068a92 sweet: Switch to VantomKernel [basamaryan]
 
 * frameworks/av
-4d46fe248c camera: Add extension to control torch strength [Dhina17]
-6400d6f180 StagefrightRecorder: Add "set-title" parameter [cjh1249131356]
-44a9858f98 libcameraservice: Add support to set vendor tag with client package name [cjh1249131356]
+d0a0f0681e camera: Add extension to control torch strength [Dhina17]
+a1050bffc9 StagefrightRecorder: Add "set-title" parameter [cjh1249131356]
+178b02b432 libcameraservice: Add support to set vendor tag with client package name [cjh1249131356]
 
 * frameworks/base
-ae573b512c69 camera: Add backwards-compatible CaptureResultExtras constructor [Adithya R]
-44bd465cb99e core: camera2: StreamConfigurationMap: add constructor for MIUI camera [Pulkit077]
+aef14a60f535c base: Incall vibration options [1/3] [beanstown106]
+8996f779bcfa7 base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha]
+1a0ead63e0b08 camera: Add backwards-compatible CaptureResultExtras constructor [Adithya R]
+adc4b4f819cce core: camera2: StreamConfigurationMap: add constructor for MIUI camera [Pulkit077]
+
+* hardware/qcom-caf/sdm660/audio
+90647c475f post_proc: Correct libvolumelistener include_dirs [Michael Bestas]
 
 * kernel/xiaomi/sm6150
-ef083c627f8d ARM64: configs: sweet: Enable ln8000 charger [basamaryan]
-20a9930b5ae3 power: supply: Import changes for ln8000 [basamaryan]
-5a4120145bc3 power: supply: ln8000_charger: Switch to ln8000 [vantoman]
-16ca5c44718d power: supply: ln8000_charger: Drop the use of hardware_info [basamaryan]
-0bd1d72151bb ARM64: dts: qcom: xiaomi: sweet: Add ln8000_charger [basamaryan]
-c17b5e181b65 drivers: power: supply: Import ln8000_charger [basamaryan]
+c3e01a85839f ARM64: configs: sweet: Enable ln8000 charger [basamaryan]
+f8b2195d9ed7 power: supply: Import changes for ln8000 [basamaryan]
+3384ab23f024 power: supply: ln8000_charger: Switch to ln8000 [vantoman]
+1d292e552e15 power: supply: ln8000_charger: Drop the use of hardware_info [basamaryan]
+bffbe3dc47e4 ARM64: dts: qcom: xiaomi: sweet: Add ln8000_charger [basamaryan]
+c3d9692d874b drivers: power: supply: Import ln8000_charger [basamaryan]
 
+* lineage/hudson
+000d18a hudson: NOT OJ [Nick Reuter]
+0e08719 resurrect that which should be dead [Nolen Johnson]
+
+* lineage/wiki
+4792aba2 wiki: Bump bronco's fw requirements [Nick Reuter]
+dd317a8a wiki: Update bronco maintainers [Nick Reuter]
+5a9c9981 wiki: Update supported models for bronco [Nick Reuter]
+880cc376 wiki: Promote bronco to 23.2 [Nick Reuter]
+c31e5385 wiki: pdx225/pdx235 Flash vendor_boot first [LuK1337]
+2392c022 wiki: berlna: Fix wrong image [razorloves]
+6a245504 wiki: Use correct name for Google Messages [charcoalpt]
+
+* packages/apps/Settings
+5f47c73755d Settings: Fix in-call vibration controller build [DymondZ]
+6110a70a976 Settings: Add incall vibration options [3/3] [beanstown106]
+14be51c9f8d Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha]
+
+* packages/overlays/Lineage
+ed3fca9 vendor: Set Google Sans Text as the default body font. [Sourajit Karmakar]
+
+* packages/services/Telecomm
+3656ec37b Telecomm: Enable in-call vibrations by default [DymondZ]
+750bb08af Incall vibration options[2/3] [beanstown106]
+
+====================
+     2026-06-21    
+====================
+* hardware/qcom-caf/sdm660/audio
+90647c475f post_proc: Correct libvolumelistener include_dirs [Michael Bestas]
+
+* lineage/hudson
+0e08719 resurrect that which should be dead [Nolen Johnson]
+
+* lineage/mirror
+8fd1615 Updated to 20-Jun-2026 10:01 UTC [Tim Schumacher]
+
+* lineage/wiki
+6a245504 wiki: Use correct name for Google Messages [charcoalpt]
+
+====================
+     2026-06-20    
+====================
 * lineage/hudson
 658a0d3 Regenerate device dependency mappings [LineageOS Infra]
 
 * lineage/mirror
+8fd1615 Updated to 20-Jun-2026 10:01 UTC [Tim Schumacher]
 94ee717 Updated to 18-Jun-2026 22:01 UTC [Tim Schumacher]
 
 * vendor/apn
@@ -49,6 +102,9 @@ c17b5e181b65 drivers: power: supply: Import ln8000_charger [basamaryan]
 
 * lineage/mirror
 94ee717 Updated to 18-Jun-2026 22:01 UTC [Tim Schumacher]
+
+* lineage/wiki
+0b748d6a devices: Promote LGE MSM8996 to 22.2 [Nolen Johnson]
 
 * packages/modules/Bluetooth
 50f144bbe3 fixup! Bluetooth: Add a workaround for M_RELEASE rsp len in ble_gap.cc [Nolen Johnson]
@@ -66,6 +122,7 @@ c17b5e181b65 drivers: power: supply: Import ln8000_charger [basamaryan]
 edabe06 Updated aosp-minimal to 17-Jun-2026 05:00 UTC [Tim Schumacher]
 
 * lineage/wiki
+0b748d6a devices: Promote LGE MSM8996 to 22.2 [Nolen Johnson]
 4c2b5cfe wiki: Add wiki->gh mapping for lemonade maintainer [LuK1337]
 507a3742 wiki: s/and connect USB cable to PC/then connect USB cable to PC/ [Andrew Sayers]
 ca979b23 wiki: bluetooth: 5 -> 5.0 [Onelots]
@@ -92,7 +149,7 @@ ca979b23 wiki: bluetooth: 5 -> 5.0 [Onelots]
      2026-06-16    
 ====================
 * frameworks/base
-ff7620a38e54 Automatic translation import [LineageOS Infra]
+ff7620a38e54c Automatic translation import [LineageOS Infra]
 
 * lineage-sdk
 a0d5245d Automatic translation import [LineageOS Infra]
@@ -188,7 +245,7 @@ b8c60ac Automatic translation import [LineageOS Infra]
 64512a6 Update Chromium Webview x86_64 to 149.0.7827.114 [Kevin F. Haggerty]
 
 * frameworks/base
-ff7620a38e54 Automatic translation import [LineageOS Infra]
+ff7620a38e54c Automatic translation import [LineageOS Infra]
 
 * lineage-sdk
 a0d5245d Automatic translation import [LineageOS Infra]
@@ -361,7 +418,7 @@ c0a70ee US: Allow IPV4V6 for Google Fi (h2g2) [John-Michael Mulesa]
 2a5e2ef common: Label ro.config.force_multi_window prop [Thomas Makin]
 
 * frameworks/base
-faeae53c21f2 wm: don't disable rot hint on low_ram [Thomas Makin]
+faeae53c21f2d wm: don't disable rot hint on low_ram [Thomas Makin]
 
 * lineage/hudson
 18236e4 Regenerate device dependency mappings [LineageOS Infra]
@@ -381,7 +438,7 @@ c0a70ee US: Allow IPV4V6 for Google Fi (h2g2) [John-Michael Mulesa]
 2a5e2ef common: Label ro.config.force_multi_window prop [Thomas Makin]
 
 * frameworks/base
-faeae53c21f2 wm: don't disable rot hint on low_ram [Thomas Makin]
+faeae53c21f2d wm: don't disable rot hint on low_ram [Thomas Makin]
 
 * lineage/hudson
 e91ea2c Regenerate device dependency mappings [LineageOS Infra]
@@ -416,44 +473,4 @@ b015df8f wiki: Add wiki->gh mapping for gauguin maintainer [LuK1337]
 
 * scripts
 555516d shipper: Add comment with used git hashes [LuK1337]
-
-====================
-     2026-06-08    
-====================
-* lineage/hudson
-139ea8b Regenerate device dependency mappings [LineageOS Infra]
-
-* lineage/mirror
-394398d Updated lineage-minimal to 07-Jun-2026 22:01 UTC [Tim Schumacher]
-921fb96 Updated to 07-Jun-2026 22:01 UTC [Tim Schumacher]
-
-* lineage/scripts
-555516d shipper: Add comment with used git hashes [LuK1337]
-
-* lineage/wiki
-8b213ad5 wiki: Add wiki->gh mapping for Q25 maintainer [LuK1337]
-4ccd1852 wiki: Add wiki->gh mapping for nio maintainer [LuK1337]
-b015df8f wiki: Add wiki->gh mapping for gauguin maintainer [LuK1337]
-11002099 fixup! wiki: makinbacon github username mapping [LuK1337]
-5ec8000b wiki: makinbacon github username mapping [Nolen Johnson]
-
-* scripts
-555516d shipper: Add comment with used git hashes [LuK1337]
-
-====================
-     2026-06-07    
-====================
-* lineage/mirror
-d7ec83b Updated aosp-minimal to 06-Jun-2026 10:02 UTC [Tim Schumacher]
-6554b05 Updated to 05-Jun-2026 22:01 UTC [Tim Schumacher]
-
-* lineage/wiki
-0dc42653 wiki: Provide universal binary for macOS Heimdall [LuK1337]
-837e47c1 wiki: Document Gerrit gh oauth [LuK1337]
-
-* packages/modules/Bluetooth
-463a305fe4 Bluetooth: Add a workaround for M_RELEASE rsp len in ble_gap.cc [AShiningRay]
-ee30ca6120 btm: allow BTM_VSC_CHIP_CAPABILITY_RSP_LEN_M_RELEASE to be adjustable [Geel]
-72134c060d Remove invalidate callbacks when disconnected [Kyunglyul Hyun]
-008f731357 Revert "le_impl: Avoid self-deadlock in connections::execute()" [Nolen Johnson]
 
